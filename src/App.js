@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
@@ -9,17 +9,16 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Video from './components/Videos/Video';
 import Course from './components/Course/Course';
-import CustomLink from './components/CustomLink/CustomLink';
+
 import Header from './components/Header/Header';
 import NotFound from './components/NotFound/NotFound';
+
 
 function App() {
   return (
     <div className="App">
 
     <Header></Header>
-
-      
 
       <Routes>
         <Route path='/' element={<Home></Home>} ></Route>

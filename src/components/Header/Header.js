@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
+import { Button, Carousel, Container, Form, FormControl, Nav, Navbar, NavDropdown, Offcanvas } from 'react-bootstrap';
 
 const Header = () => {
     return (
         <div>
             <Navbar bg="light" expand={false}>
-  <Container fluid>
-    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+             <Container fluid>
+            <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
@@ -47,7 +47,10 @@ const Header = () => {
     </Navbar.Offcanvas>
   </Container>
 </Navbar>
+
+
         </div>
+        
     );
 };
 
